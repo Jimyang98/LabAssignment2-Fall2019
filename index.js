@@ -5,7 +5,7 @@ var Greeter = /** @class */ (function () {
     }
     Greeter.prototype.showGreeting = function () {
         var row2 = document.getElementById('r1c2');
-        row2.innerHTML = 'Hello ' + this.firstName + ' ' + this.lastName + ',' + ' this is Lab # 2' + '.';
+        row2.innerHTML = 'Hello ' + this.firstName + ' ' + this.lastName + ',' + ' this is Lab Assignment #2' + '.';
     };
     Greeter.prototype.resetGreeting = function () {
         var row2 = document.getElementById('r1c2');
